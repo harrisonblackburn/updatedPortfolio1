@@ -1,0 +1,175 @@
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: left;
+    background-color: gray;
+    border-bottom: 20px solid black;
+
+}
+h1 {
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 250px;
+}
+
+p {
+    margin: 20px 10px 10px 0px;
+}
+
+figcaption {
+    position: relative;
+    bottom: 15px;
+    right: 0;
+    background-color:mintcream;
+    padding: 10px;
+}
+
+.sectionContainer {
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.sectionTitle {
+border-image: linear-gradient(to bottom, rgb(11, 55, 128), rgba(0, 0, 0, 0)) 1
+    100%;
+  border-right: 5px solid;
+  font-size: xx-large;
+  max-width: 250px;
+  padding: 50px 100px; 
+  text-decoration-color: lightskyblue;
+}
+  
+.picture {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}    
+
+.section {
+    display:flex;
+    margin-top: 15px;
+    border-bottom: maroon;
+}
+.bigImage {
+    height: 200px;
+    width: 20vw;
+
+}
+.otherImages {
+    height: 100px;
+    width: 10vw;
+}
+@media screen and (max-width: 768px) {
+  header,
+  main,
+  .section {
+    flex-direction: column;
+  }
+  nav {
+    margin-top: 20px;
+  }
+  p {
+    margin-right: 20px;
+  }
+  .section {
+    margin-left: 20px;
+    align-items: flex-start;
+  }
+  .sectionTitle {
+    border: none;
+    padding: 0px;
+  }
+  .sectionContainer {
+    margin-left: 0px;
+  }
+  .bigImage {
+    height: 200px;
+    width: 300px;
+  }
+  .otherImages{
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .bigImage {
+    height: 200px;
+    width: 200px;
+  }
+  .otherImages {
+    height: 200px;
+    width: 200px;
+  }
+}@media screen and (max-width: 768px) {
+    header,
+    main,
+    .section {
+      flex-direction: column;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    p {
+      margin-right: 20px;
+    }
+    .section {
+      margin-left: 20px;
+      align-items: flex-start;
+    }
+    .sectionTitle {
+      border: none;
+      padding: 0px;
+    }
+    .sectionContainer {
+      margin-left: 0px;
+    }
+    .bigImage {
+      height: 200px;
+      width: 300px;
+    }
+   
+  
+    #contactInfo ul {
+      min-width: 300px;
+      max-width: 300px;
+      display: flex;
+      flex-direction: column;
+      max-width: inherit;
+    }
+    #contactInfo li {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .bigImage {
+      height: 200px;
+      width: 200px;
+    }
+    .otherImages {
+      height: 200px;
+      width: 200px;
+    }
+}
+
+
+ 
+
+
+
+  
